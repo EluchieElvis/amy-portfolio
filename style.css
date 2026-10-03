@@ -25,21 +25,7 @@ header span{
     font-size: clamp(6px, 1vw, 30px);
     color: #686058;
     text-wrap: nowrap;
-    animation: wobble 3s ease infinite;
     position: relative;
-    transform: translateY(0px);
-}
-
-@keyframes wobble {
-    0%{
-        transform: translateY(0px);
-    }
-    50%{
-        transform: translateY(-12px);
-    }
-    100%{
-        transform: translateY(0px);
-    }
 }
 header button{
     background-color: black;
