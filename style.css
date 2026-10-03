@@ -25,7 +25,7 @@ header span{
     font-size: clamp(6px, 1vw, 30px);
     color: #686058;
     text-wrap: nowrap;
-    position: relative;
+    animation: none;
 }
 header button{
     background-color: black;
